@@ -6,7 +6,7 @@ Usage
 ---
 Replace each instance of `[keybinding]` with the keyboard shortcut you’d like to use for the command. Use `@` for `⌘`, `~` for `⌥`, and `^` for `⌃`. Place `DefaultKeyBinding.dict` in `~/Library/KeyBindings` and restart each application for the keybindings to take effect.
 
-To use these keybindings within Xcode requires a second representation of each keybinding to be included in `/Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/Resources/IDETextKeyBindingSet.plist`. These are in the form of key-value pairs, with the name as the key and a comma separated list of selectors as the string value. I added these in a separate “Custom Bindings” section; the template for this section is provided below. The actual keyboard shortcuts used will mirror those defined in `~/Library/KeyBindings/DefaultKeyBinding.dict`.
+To use these keybindings within Xcode requires a second representation of each keybinding to be included in `/Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/Resources/IDETextKeyBindingSet.plist`. These are in the form of key-value pairs, with the name as the key and a comma separated list of selectors as the string value. I added these in a separate “Custom Bindings” section, based on the template defined in `IDETextKeyBindingSetTemplate.plist`. The actual keyboard shortcuts used will mirror those defined in `~/Library/KeyBindings/DefaultKeyBinding.dict`.
 
 Commands
 ---
