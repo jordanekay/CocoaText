@@ -8,6 +8,8 @@ Replace each instance of `[keybinding]` with the keyboard shortcut you’d like 
 
 To use these keybindings within Xcode requires a second representation of each keybinding to be included in `/Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/Resources/IDETextKeyBindingSet.plist`. These are in the form of key-value pairs, with the name as the key and a comma separated list of selectors as the string value. I added these in a separate “Custom Bindings” section, based on the template defined in `IDETextKeyBindingSetTemplate.plist`. The actual keyboard shortcuts used will mirror those defined in `~/Library/KeyBindings/DefaultKeyBinding.dict`.
 
+Be sure to back up this .plist file each time you update Xcode, or your keybindings will be lost. You will need to manually move this backup file to the proper location each time the app has been updated.
+
 Commands
 ---
 * __Select Next Word__ — Selects the next word in the document, starting with the one under the cursor. Repeated application selects each subsequent word.
