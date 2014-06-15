@@ -2,7 +2,29 @@
 <!-- Custom Bindings  -->
 <key>Custom Bindings</key>
 <dict>
-    <key>Binding Name</key>
-    <string>firstCommand:, secondCommand:</string>
+    <key>Select Next Word</key>
+    <string>moveWordRight:, moveWordLeft:, moveWordRightAndModifySelection:</string>
+    <key>Select Next Subword</key>
+    <string>moveSubWordForward:, moveSubWordBackward:, moveSubWordForwardAndModifySelection:</string>
+    <key>Select Next Line</key>
+    <string>moveRightAndModifySelection:, moveRight:, moveLeft:, selectLine:</string>
+    <key>Move Line Up</key>
+    <string>delete:, moveUp:, setMark:, yank:, moveToBeginningOfLine:, selectToMark:</string>
+    <key>Move Line Down</key>
+    <string>delete:, moveToEndOfLine:, insertLineBreak:, setMark:, yank:, deleteToBeginningOfLine:, moveLeft:, moveRightAndModifySelection:, delete:, selectToMark:, moveRightAndModifySelection:</string>
+    <key>Duplicate Line</key>
+    <string>selectLine:, delete:, yank:, setMark:, yank:, selectToMark:</string>
+    <key>Clear Line</key>
+    <string>moveToEndOfLine:, deleteToBeginningOfLine:</string>
+    <key>Delete Line</key>
+    <string>selectLine:, delete:</string>
+    <key>Shrink Selection</key>
+    <string>moveLeftAndModifySelection:, moveRightAndModifySelection:, moveRightAndModifySelection:, delete:, setMark:, yank:, moveLeft:, selectToMark:</string>
+    <key>Move to Opening Brace From Selection</key>
+    <string>moveLeft:, moveRight:</string>
+    <key>Move to Closing Brace From Selection</key>
+    <string>moveRight:, moveLeft:</string>
+    <key>Copy Word</key>
+    <string>selectWord:, copy:</string>
 </dict>
 <!-- End Custom Bindings -->
