@@ -10,7 +10,7 @@
     // Move Line Down
     "[keybinding]" = (delete:, moveToEndOfLine:, insertLineBreak:, setMark:, yank:, deleteToBeginningOfLine:, moveLeft:, moveRightAndModifySelection:, delete:, selectToMark:, moveRightAndModifySelection:);
     // Duplicate Line
-    "[keybinding]" = (selectLine:, delete:, yank:, setMark:, yank:, selectToMark:);
+    "[keybinding]" = (selectLine:, copy:, moveToEndOfLine:, insertNewline:, paste:, deleteBackward:);
     // Clear Line
     "[keybinding]" = (moveToEndOfLine:, deleteToBeginningOfLine:);
     // Delete Line
